@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  user-select: none;
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    &-list {
+      display: flex;
+      gap: 20px;
+    }
+
+    &-link {
+      font-size: 24px;
+      color: white;
+    }
+
+    &-btn {
+      padding: 6px 20px;
+      background-color: #61d93e;
+      font-size: 24px;
+      color: white;
+    }
+  }
+}
