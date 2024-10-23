@@ -1,0 +1,36 @@
+.footer{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_container{
+  width: 85%;
+  height: 75%;
+  background-color: gray;
+}
+
+.footer_wrapper{
+  display: flex;
+}
+
+.footer_logo-info{
+  width: 30%;
+  height: 100%;
+  background-color: silver;
+}
+
+.info_subtitle{
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: 'Proxima',sans-serif;
+  color: rgb(224, 218, 218);
+  cursor: pointer;
+}
+.info_subtitle:hover{
+  color: rgb(255, 255, 255);
+  transition: 0.9s;
+}
