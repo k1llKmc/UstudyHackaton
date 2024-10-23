@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Onest";
-  src: url('../public/assets/fonts/Onest.ttf');
+  src: url("../public/assets/fonts/Onest.ttf");
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,9 +11,14 @@
   text-decoration: none;
   border: none;
   outline: none;
-  font-family: 'Onest';
+  font-family: "Onest";
 }
 
-body{
+body {
+  padding: 20px 40px;
   background-color: #181818;
+}
+
+.highlighted {
+  color: #61d93e;
 }
