@@ -5,3 +5,5 @@ export interface Course {
   duration: string;
   price: string;
 }
+
+// 
