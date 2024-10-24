@@ -1,4 +1,4 @@
-import { Courses, Events } from './../../app.data';
+import { Courses } from './../../app.data';
 import { Course } from './../../app.interface';
 import { Component } from '@angular/core';
 
@@ -11,5 +11,4 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   courses: Course[] = Courses;
-  events: 
 }
