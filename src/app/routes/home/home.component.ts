@@ -1,3 +1,5 @@
+import { Courses, Events } from './../../app.data';
+import { Course } from './../../app.interface';
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,8 +7,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-
+  courses: Course[] = Courses;
+  events: 
 }
